@@ -1,5 +1,5 @@
 all:
-	platex ans_algointro.tex && dvipdfmx ans_algointro.dvi
+	platex introtoalgo.tex && dvipdfmx introtoalgo.dvi
 
 bib:
-	pbibtex ans_algointro
+	pbibtex introtoalgo
